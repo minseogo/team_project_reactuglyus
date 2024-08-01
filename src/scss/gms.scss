@@ -573,9 +573,8 @@
   justify-content: center;
   align-items: center;
 }
-
 #store_gms .swiper-slide {
-  width:555px;
+  width:560px;
       .bg, 
       .info {
           display: none;
@@ -586,10 +585,62 @@
       object-fit: cover;
       transform: scale(0.5);
       transform-origin: center;
+    }
+    &.swiper-slide-prev {
+      .carrot_png {
+        width: 300px;
+        transform: scale(0.5) translate(169px, 14px);
       }
+      .bok_choy_png {
+          width: 300px;
+          transform: scale(0.6) translate(123px, 6px);
+      }
+      .mushroom_png {
+          width: 300px;
+          transform: scale(0.6) translate(126px, 43px);
+      }
+      .paprika_png {
+          width: 300px;
+          transform: scale(0.45) translate(162px, 23px);
+      }
+      .cucumber_png {
+          width: 300px;
+          transform: scale(0.5) translate(86px, 43px);
+      }
+      .lemon_png {
+          width: 300px;
+          transform: scale(0.4) translate(175px, 83px);
+      }
+    }
+    &.swiper-slide-next{
+      .carrot_png {
+        width: 300px;
+        transform: scale(0.5) translate(479px, 76px);
+      }
+      .bok_choy_png {
+          width: 300px;
+          transform: scale(0.6) translate(365px, 6px);
+      }
+      .mushroom_png {
+          width: 300px;
+          transform: scale(0.6) translate(364px, 43px);
+      }
+      .paprika_png {
+          width: 300px;
+          transform: scale(0.45) translate(488px, 39px);
+      }
+      .cucumber_png {
+          width: 300px;
+          transform: scale(0.5) translate(381px, 43px);
+      }
+      .lemon_png {
+          width: 300px;
+          transform: scale(0.4) translate(542px, 68px);
+      }
+    }
     &.swiper-slide-active {
       z-index: 10000;
-      width:555px;
+      width:560px;
       
       .bg  {
           display: flex;
@@ -735,14 +786,6 @@ color: white;
 width: 115px;
 height: 37px;
 margin-top: 3rem;
-}
-#store_gms .swiper-pagination-bullet {
-  width: 17px;
-  height: 16px;
-  background-color: #B7B7B7;
-}
-#store_gms .swiper-pagination-bullet-active {
-  background-color: #797979;
 }
 // 990px 반응형
 @media (max-width: 990px) {

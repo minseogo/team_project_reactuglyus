@@ -122,8 +122,8 @@
 
 .formfont_placehold_pyj {
   font-family: "Pretendard";
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 14px !important;
+  font-weight: 500 !important;
   color: #414B5A;
 }
 @media (max-width: 990px) {
@@ -150,9 +150,8 @@
 }
 
 .input_box_1_pyj {
-  border: 1px solid #cccccc;
-  padding-left: 10px !important;
-  border-radius: 5px;
+  border: 1px solid #cccccc !important;
+  border-radius: 5px !important;
   max-width: 400px;
   height: 33px;
 }
@@ -328,30 +327,6 @@ body.no-scroll {
   background-size: 100% auto;
   border-radius: 0 0 35px 35px;
   background-position: 2px center;
-}
-
-#map_pyj {
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
-#map_pyj:before {
-  content: "";
-  background: url("../../public/img/img_pyj/webbackground/background.svg");
-  background-repeat: no-repeat;
-  background-position: left 0 top 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-@media (max-width: 990px) {
-  #map_pyj:before {
-    background-position: left -80vw top 0;
-  }
 }
 
 .text_blank_pyj {

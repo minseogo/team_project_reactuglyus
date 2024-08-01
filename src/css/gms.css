@@ -562,7 +562,7 @@
 }
 
 #store_gms .swiper-slide {
-  width: 555px;
+  width: 560px;
 }
 #store_gms .swiper-slide .bg,
 #store_gms .swiper-slide .info {
@@ -576,9 +576,57 @@
   transform: scale(0.5);
   transform-origin: center;
 }
+#store_gms .swiper-slide.swiper-slide-prev .carrot_png {
+  width: 300px;
+  transform: scale(0.5) translate(169px, 14px);
+}
+#store_gms .swiper-slide.swiper-slide-prev .bok_choy_png {
+  width: 300px;
+  transform: scale(0.6) translate(123px, 6px);
+}
+#store_gms .swiper-slide.swiper-slide-prev .mushroom_png {
+  width: 300px;
+  transform: scale(0.6) translate(126px, 43px);
+}
+#store_gms .swiper-slide.swiper-slide-prev .paprika_png {
+  width: 300px;
+  transform: scale(0.45) translate(162px, 23px);
+}
+#store_gms .swiper-slide.swiper-slide-prev .cucumber_png {
+  width: 300px;
+  transform: scale(0.5) translate(86px, 43px);
+}
+#store_gms .swiper-slide.swiper-slide-prev .lemon_png {
+  width: 300px;
+  transform: scale(0.4) translate(175px, 83px);
+}
+#store_gms .swiper-slide.swiper-slide-next .carrot_png {
+  width: 300px;
+  transform: scale(0.5) translate(479px, 76px);
+}
+#store_gms .swiper-slide.swiper-slide-next .bok_choy_png {
+  width: 300px;
+  transform: scale(0.6) translate(365px, 6px);
+}
+#store_gms .swiper-slide.swiper-slide-next .mushroom_png {
+  width: 300px;
+  transform: scale(0.6) translate(364px, 43px);
+}
+#store_gms .swiper-slide.swiper-slide-next .paprika_png {
+  width: 300px;
+  transform: scale(0.45) translate(488px, 39px);
+}
+#store_gms .swiper-slide.swiper-slide-next .cucumber_png {
+  width: 300px;
+  transform: scale(0.5) translate(381px, 43px);
+}
+#store_gms .swiper-slide.swiper-slide-next .lemon_png {
+  width: 300px;
+  transform: scale(0.4) translate(542px, 68px);
+}
 #store_gms .swiper-slide.swiper-slide-active {
   z-index: 10000;
-  width: 555px;
+  width: 560px;
 }
 #store_gms .swiper-slide.swiper-slide-active .bg {
   display: flex;
@@ -695,16 +743,6 @@
   width: 115px;
   height: 37px;
   margin-top: 3rem;
-}
-
-#store_gms .swiper-pagination-bullet {
-  width: 17px;
-  height: 16px;
-  background-color: #B7B7B7;
-}
-
-#store_gms .swiper-pagination-bullet-active {
-  background-color: #797979;
 }
 
 @media (max-width: 990px) {
