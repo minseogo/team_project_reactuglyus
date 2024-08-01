@@ -574,7 +574,7 @@
   align-items: center;
 }
 #store_gms .swiper-slide {
-  width:560px;
+  width:600px;
       .bg, 
       .info {
           display: none;
@@ -640,8 +640,7 @@
     }
     &.swiper-slide-active {
       z-index: 10000;
-      width:560px;
-      
+      width:600px;
       .bg  {
           display: flex;
           position: relative;
