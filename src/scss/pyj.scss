@@ -114,8 +114,8 @@ $uglygray : #414B5A;
   }
   .formfont_placehold_pyj{
     font-family: 'Pretendard';
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 14px !important;
+    font-weight: 500 !important;
     color: $uglygray;
       @media (max-width : 990px){
         font-size: 12px;
@@ -139,9 +139,8 @@ $uglygray : #414B5A;
 
   // 폼 입력칸 스타일
   .input_box_1_pyj{
-    border: 1px solid #cccccc;
-    padding-left: 10px !important;
-    border-radius: 5px;
+    border: 1px solid #cccccc !important;
+    border-radius: 5px !important;
     max-width: 400px;
     height: 33px;
       @media (max-width : 990px){
@@ -346,14 +345,12 @@ body.no-scroll {
 //     background-size: 100%;
 //       @media (max-width:1920px) {
 //         background-size: contain;
-        
 //       }   
 //     position: absolute;
 //     bottom: 0;
 //     left: 0;
 //     z-index: -1; 
 //     // transform: scaleX(-1);      
-   
 //   }
 // }
 // #store_jjh{
@@ -393,28 +390,29 @@ body.no-scroll {
 //     transform: scaleY(-1);
 //   }
 // }
-#map_pyj{
-  position: relative;
-  width: 100%;
-  height: 100%;
 
-  &:before{
-    content: "";
-    background: url('../../public/img/img_pyj/webbackground/background.svg');
-    background-repeat: no-repeat;
-    background-position: left 0 top 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; 
-    @media (max-width : 990px){
-      background-position: left -80vw top 0;
-    }
-  }
-}
+// #map_pyj{
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+
+//   &:before{
+//     content: "";
+//     background: url('../../public/img/img_pyj/webbackground/background.svg');
+//     background-repeat: no-repeat;
+//     background-position: left 0 top 0;
+//     width: 100%;
+//     height: 100%;
+//     background-size: cover;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     z-index: -1; 
+//     @media (max-width : 990px){
+//       background-position: left -80vw top 0;
+//     }
+//   }
+// }
 
 
 // #event_banner_yys{
@@ -460,111 +458,6 @@ body.no-scroll {
 //     margin-top: 80px;
 //   }
 // }
-
-
-// // 폼 컨텐츠 css
-// // 폼 폰트 
-// .font_title_k_pyj{
-//   font-family: 'Pretendard';
-//   font-size: 30px;
-//   font-weight: 700;
-//   color: $uglyblack;
-//   letter-spacing: -0.5px;
-//   line-height: 2.5rem;
-//     @media (max-width : 990px){
-//       font-size: 22px;
-//       line-height: 1.8rem;
-//     }
-//   }
-//   .formfont_subtitle_pyj{
-//     font-family: 'Pretendard';
-//     font-size: 22px;
-//     font-weight: 700;
-//     color:$uglyblack;
-//     letter-spacing: -0.5px;
-//     line-height: 1.8rem;
-//       @media (max-width : 990px){
-//         font-size: 17px;
-//         line-height: 1.4rem;
-//       }
-//   }
-//   .formfont_text_pyj {
-//     font-family: "Pretendard";
-//     font-size: 16px;
-//     font-weight: 600;
-//     color: $uglyblack;
-//       @media (max-width : 990px){
-//         font-size: 13px;
-//     }
-//   }
-//   .formfont_placehold_pyj{
-//     font-family: 'Pretendard';
-//     font-size: 14px;
-//     font-weight: 500;
-//     color: $uglygray;
-//       @media (max-width : 990px){
-//         font-size: 12px;
-//     }
-//   }
-
-//   // 배경
-//   .contents_background_pyj{
-//     background-color: #FFF4DF;
-//     padding: 9rem 0;
-//     @media (max-width : 990px) {
-//       padding: 3rem
-//     }
-//   }
-//   .form_background_pyj{
-//     max-width: 500px;
-//     max-height: 600px;
-//     background-color: #fff;
-//     border-radius: 20px;
-//   }
-
-//   // 폼 입력칸 스타일
-//   .input_box_1_pyj{
-//     border: 1px solid #cccccc;
-//     padding-left: 10px !important;
-//     border-radius: 5px;
-//     max-width: 400px;
-//     height: 33px;
-//       @media (max-width : 990px){
-//         max-width: 300px;
-//       }
-//   }
-//   .input_box_2_pyj{
-//     border: 1px solid #cccccc;
-//     padding-left: 10px !important;
-//     border-radius: 5px;
-//     max-width: 130px;
-//     height: 33px;
-//       @media (max-width : 990px){
-//         max-width: 97px;
-//       }
-//   }
-//   .mx_1{
-//     margin: 0 0.25rem;
-//   }
-  
-//   // 폼 버튼
-//   .formbuttonstyle_pyj{
-//     width: 400px;
-//     height: 60px;
-//     background-color: $uglyorange;
-//     border-radius: 20px;
-//     border: none;
-//     color: #fff;
-//     font-family: 'Pretendard';
-//     font-size: 22px;
-//     font-weight: 600;
-//       @media (max-width : 990px){
-//         max-width: 300px;
-//         height: 50px;
-//         font-size: 18px;
-//         font-weight: 500;
-//       }
-//   }
 
 
 // // 추가 수정

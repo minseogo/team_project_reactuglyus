@@ -51,7 +51,7 @@ function Formboxhook() {
                             required="이름은 필수 입력 항목입니다."
                             pattern={{ value: /^[가-힣]{2,}$/, message: "이름을 정확하게 입력해주세요." }}
                             labelcls="form-label formfont_text_pyj mb-1"
-                            inputcls="form-control formfont_placehold_pyj input_box_1_pyj px-0"
+                            inputcls="form-control formfont_placehold_pyj input_box_1_pyj px-0 ps-2"
                             errors={errors}
                         />
                     </li>
@@ -60,7 +60,7 @@ function Formboxhook() {
                             label="연락처"
                             labelnm="formhp"
                             labelcls="form-label formfont_text_pyj mb-1"
-                            inputcls="form-input formfont_placehold_pyj input_box_2_pyj px-0"
+                            inputcls="form-input formfont_placehold_pyj input_box_2_pyj px-0 ps-2"
                             register={register}
                             errors={errors}
                         />
@@ -74,7 +74,7 @@ function Formboxhook() {
                             required="납품 물건은 필수 입력 항목입니다."
                             pattern={{ value: /^[가-힣]+$/, message: "납품 물건을 정확하게 입력해주세요." }}
                             labelcls="form-label formfont_text_pyj mb-1"
-                            inputcls="form-control formfont_placehold_pyj input_box_1_pyj px-0"
+                            inputcls="form-control formfont_placehold_pyj input_box_1_pyj px-0 ps-2"
                             errors={errors}
                         />
                     </li>
@@ -85,7 +85,7 @@ function Formboxhook() {
                             placeholder="기타 의견을 적어주세요."
                             register={register}
                             labelcls="form-label formfont_text_pyj mb-1"
-                            inputcls="form-control formfont_placehold_pyj input_box_1_pyj px-0"
+                            inputcls="form-control formfont_placehold_pyj input_box_1_pyj px-0 ps-2"
                             errors={errors}
                         />
                     </li>

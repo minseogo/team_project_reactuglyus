@@ -7,7 +7,7 @@ function Kakaomap({ setTargetNum }) {
     useEffect(() => {
         const container = document.getElementById('kakaomap');
         const options = {
-            center: new kakao.maps.LatLng(35.5665, 128.1654),
+            center: new kakao.maps.LatLng(36.5174, 127.8173),
             level: 13
         };
 
