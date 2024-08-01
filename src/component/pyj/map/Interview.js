@@ -30,9 +30,9 @@ function Interview({ targetnum }) {
                 <div className="d-none d-lg-flex justify-content-start align-items-center">
                     <button type="button" className="font_button mapbuttonstyle_pyj"><a href="#">구매하러가기</a></button>
                 </div>
-                <div className="d-flex d-lg-none my-3 justify-content-center align-items-center w-100">
+                {/* <div className="d-flex d-lg-none my-3 justify-content-center align-items-center w-100">
                     <button type="button" className="font_button mapbuttonstyle_pyj"><a href="#">구매하러가기</a></button>
-                </div>
+                </div> */}
             </div>
         </div>
     );
