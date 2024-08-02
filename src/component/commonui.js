@@ -15,3 +15,14 @@ export const Button = styled.button`
   }
 `;
 
+export const Buttonmore = styled.button`
+  background-color: #FE663F;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  width: 115px;
+  height: 37px;
+  margin-top: 3rem;
+  font-family: "Pretendard";
+  font-weight:400;
+  `

@@ -6,7 +6,7 @@ import Collabobanner from './yys/Collabobanner';
 import Sustainability from './jjh/Sustainability';
 import Review from './gms/Review';
 import Store from './gms/Store';
-// import Recipe from './yjy/Recipe';
+import Recipe from './yjy/Recipe';
 import Map from './pyj/map/Map';
 import Eventbanner from './yys/Eventbanner';
 import Form from './pyj/form/Form';
@@ -19,9 +19,7 @@ function Maincontent() {
             <Sustainability />
             <Review />
             <Store />
-            {/* 
-            
-            <Recipe /> */}
+            <Recipe />
             <Map />
             <Eventbanner />
             <Form />

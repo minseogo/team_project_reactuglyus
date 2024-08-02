@@ -59,11 +59,29 @@
   color: #414B5A;
 }
 
-
-
 .letter_spacing_yjy {
   letter-spacing: -0.3px;
 }
+.font_f12semibold_yjy{
+  font-family: "Pretendard";
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+}
+
+.font_button_yjy {
+    font-family: "Pretendard";
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: -0.5px;
+    line-height: 1.5rem;
+  }
+  @media (max-width: 990px) {
+    .font_button {
+      font-size: 14px;
+    }
+  }
 
 .adbanner {
   height: 15vw;
@@ -99,20 +117,26 @@
 }
 @media (max-width: 991px) {
   #recipe_yjy .targetThumb {
-    height: 120px;
+    height: auto;
   }
+  #recipe_yjy li > div.orange {
+    
+    height: auto;
+  }
+  
+
 }
 #recipe_yjy .targetThumb_a {
   height: 260px;
   border-radius: 20px;
 }
 #recipe_yjy .targetThumb_a img {
-  transform: translate(-30%, -11%);
-  height: 118%;
+    transform: translate(-26%, -2%);
+    height: 105%;
 }
 @media (max-width: 991px) {
   #recipe_yjy .targetThumb_a {
-    height: 120px;
+    height: 200px;
   }
 }
 #recipe_yjy .targetThumb_b {
@@ -120,12 +144,15 @@
   border-radius: 20px;
 }
 #recipe_yjy .targetThumb_b img {
-  transform: translate(-2%, -28%);
-  height: 153%;
+    transform: translate(-2%, -28%);
+    height: 156%;
 }
 @media (max-width: 991px) {
   #recipe_yjy .targetThumb_b {
-    height: 120px;
+    height: 200px;
+  }
+  #recipe_yjy .targetThumb img{
+    height: 71vw;
   }
 }
 #recipe_yjy .targetThumb_c {
@@ -135,6 +162,11 @@
 #recipe_yjy .targetThumb_c img {
   transform: translate(-2%, -8%);
   height: 117%;
+}
+#recipe_yjy .targetThumb_c img {
+  transform: none;
+  height: auto;
+  width: 100%;
 }
 @media (max-width: 991px) {
   #recipe_yjy .targetThumb_c {
@@ -153,6 +185,7 @@
   #recipe_yjy .targetThumb_d {
     height: 120px;
   }
+  
 }
 #recipe_yjy a {
   text-decoration: none;
@@ -165,7 +198,7 @@
 }
 #recipe_yjy .v-text {
   position: relative;
-  top: 20px;
+  margin-top: 20px;
 }
 #recipe_yjy .c-text {
   position: relative;
@@ -240,4 +273,13 @@
 }
 #ft_yys .t_mg {
   margin-top: 40px;
+}
+.section_blank_yjy{
+
+}
+.btn_yjy{
+    background-color: #FE663F;
+    width: 110px;
+    height: 37px;
+    border: none;
 }
