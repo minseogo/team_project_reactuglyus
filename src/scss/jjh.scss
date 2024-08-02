@@ -107,17 +107,17 @@ ul{
 .margin_t{
   margin-top: 80px;
 }
-.image-wrapper{
-  background-image: url('./img/img_jjh/SVG/carrot.svg'){
+// .image-wrapper{
+//   background-image: url('./img/img_jjh/SVG/carrot.svg'){
   
-  }
-}
-.bg_svg {
-  background-image: url('./img/img_jjh/SVG/carrot.svg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
+//   }
+// }
+// .bg_svg {
+//   background-image: url('./img/img_jjh/SVG/carrot.svg');
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-position: center center;
+// }
 .img_position_jjh{
   left:-60px; 
   top: -7px;
@@ -129,4 +129,33 @@ ul{
 .carrot_z{
   z-index: 1000;
 }
+}
+#we_jjh{
+  ul{
+    li{
+      img{
+        @media (max-width:550px){
+          display: flex !important;
+          transform: scale(0.7);
+        }
+      }
+      @media (max-width:550px){
+        display: flex !important;
+        text-wrap: nowrap;
+      }
+    }
+  }
+  .font_f30bold{
+    @media (max-width:990px) {
+      font-size: 3vw;
+      line-height: 1;
+      margin-top: 16px;
+      
+    }
+    @media (max-width:575px) {
+      font-size: 19px;
+      line-height: 0.5;
+      margin-top: 15px;
+    }
+  }
 }
