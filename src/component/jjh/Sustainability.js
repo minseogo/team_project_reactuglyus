@@ -19,7 +19,7 @@ function Header() {
                 <li className="we_padding_pyj d-flex d-lg-block align-items-center mb-5 mb-lg-0  justify-content-center">
                     <img className="we_icon_pyj" src="./img/img_jjh/PNG/we_bag.png" alt="가방" />
                     <div className="col-7 col-lg-12 ps-4 ps-lg-0">
-                        <strong className="d-block font_f30bold we_text_pyj">가장 소량씩,가장 신선하게!</strong>
+                        <strong className="d-block font_f30bold we_text_pyj mb-3">가장 소량씩,가장 신선하게!</strong>
                         <p className="font_text letter_spacing line_height_30">30% off, 합리적인 가격으로 만나요</p>
                     </div>
                     
@@ -27,14 +27,14 @@ function Header() {
                 <li className="we_padding_pyj d-flex d-lg-block align-items-center  mb-5 mb-lg-0  justify-content-center">
                     <img className="we_icon_pyj" src="./img/img_jjh/PNG/we_down.png" alt="가격" />
                     <div className="col-7 col-lg-12 ps-4 ps-lg-0">
-                        <strong className="d-block font_f30bold we_text_pyj">친환경 채소를 가장 저렴하게!</strong>
+                        <strong className="d-block font_f30bold we_text_pyj mb-3">친환경 채소를 가장 저렴하게!</strong>
                         <p className="font_text letter_spacing line_height_30">적은양으로 부담없이 즐겨요.</p>
                     </div>
                 </li>
                 <li className="we_padding_pyj d-flex d-lg-block align-items-center  mb-5 mb-lg-0  justify-content-center">
                     <img className="we_icon_pyj" src="./img/img_jjh/PNG/we_echo.png" alt="환경" />
                     <div className="col-7 col-lg-12 ps-4 ps-lg-0">
-                        <strong className="d-block font_f30bold we_text_pyj">환경에 한 발 나은 선택!</strong>
+                        <strong className="d-block font_f30bold we_text_pyj mb-3 ">환경에 한 발 나은 선택!</strong>
                         <p className="font_text letter_spacing line_height_30">환경에 더 가까운 생산과 소비를 지지해요.</p>
                     </div>                    
                 </li>
