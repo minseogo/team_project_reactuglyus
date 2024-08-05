@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../../css/yys.css';
 function Footer() {
     return (
-        <footer id='yfooter' className='mb-5 section_blankT'>
+        <footer id='yfooter' className='mb-5 section_blankT '>
 
-            <div className='d-flex justify-content-between align-items-center mb-2 font_base'>
-                <p className='d-none d-lg-block'>어글리어스 고객센터 070.4769.0271</p>
+            <div className='d-lg-flex  d-none d-lg-block justify-content-between align-items-center mb-2 font_base'>
+                <p className=' helpUs '>어글리어스 고객센터 070.4769.0271</p>
                 <ul className='d-none d-lg-block d-lg-flex justify-content-between me-0 ms-0 snsicon'>
                     <li>
                         <a href="#"><img src="/img/img_yys/svg/sns_Instar.svg" alt="" />
@@ -31,39 +32,43 @@ function Footer() {
                 </ul>
             </div>
 
-            <div className='d-none d-lg-block font_base'>
+            <div className='d-none d-lg-block font_base mb-5 day_help'>
                 <div className='d-lg-flex  align-items-center justify-content-between mb-5 tiem '>
-                    <ul className=''>
+                    <ul className='day'>
                         <li>화-목요일</li>
                         <li>월·금요일</li>
                         <li>토·일·공휴일
                         </li>
                     </ul>
-                    <ul className=' text-wrap '>
+                    <ul className=' text-wrap dayS '>
                         <li>11:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
                         <li>09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
                         <li>휴무</li>
                     </ul>
 
                 </div>
-                <div>
-                    <button className='me-2'>문의하기</button>
-                    <button>문의하기</button>
+                <div className='d-flex align-items-center justify-content-between'>
+                    <div>
+                        <button className='me-2 fBtns'>문의하기</button>
+                        <button className='fBtns'>자주하는질문</button>
+                    </div>
+                    <h2 className='fLogo'>
+                        <a href="#">
+                            <img src="/img/img_yys/svg/ugly_us_logo.svg" alt="로고" />
+                        </a>
+                    </h2>
+                    
 
                 </div>
                 
                 
             </div>
 
-            <div className='d-flex justify-content-between align-items-center font_base'>
-                <h2 className='d-none d-lg-block'>
-                    <a href="#">
-                       <img src="/img/img_yys/svg/ugly_us_logo.svg" alt="로고" />
-                    </a>
-                </h2>
-                <ul className='text-lg-end  text-end about'>
-                    <li className='d-lg-flex'>
-                        <p>
+            <div className='d-lg-flex justify-content-between  font_base '>
+                
+                <ul className='text-right  about'>
+                    <li className='d-lg-flex justify-content-start'>
+                        <p className=''>
                             <strong>상호명</strong>: 주식회사 캐비지
                         </p>
                         <p>
@@ -78,7 +83,7 @@ function Footer() {
                         </p>
                     </li>
 
-                    <li className='d-lg-flex'>
+                    <li className='d-lg-flex justify-content-start'>
                         <p>
                            <strong>통신판매업 신고번호 </strong>: 2021-화성동부-0302
                         </p>
@@ -89,10 +94,14 @@ function Footer() {
                            <strong>농산물 납품 및 긴급구출 제보</strong>: farm@uglyus.co.kr
                         </p>
                     </li>
-
-                    <li className='d-lg-flex '>
-                        <p>서비스 이용약관개인정보 처리방침 Copyright</p>
-                        <p>ⓒ 2024 주식회사 캐비지 All rights reserved.</p> 
+                </ul>
+                <div className='d-lg-none d-flex align-items-center  m_btn'>
+                    <p>고객센터</p>
+                    <button className='bi bi-chevron-down'></button> 
+                </div>
+                <ul>
+                <li className='svi text-center'>
+                        <p>서비스 이용약관 개인정보 처리방침</p>
                     </li>
                 </ul>
 

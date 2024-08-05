@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .jcc {
   justify-content: center !important;
 }
@@ -592,9 +593,70 @@ li {
   opacity: 1 !important;
 }
 
+#yfooter {
+  margin-left: 208px;
+  margin-right: 208px;
+}
+@media (max-width: 991px) {
+  #yfooter {
+    margin: 30px !important;
+  }
+}
+#yfooter .helpUs {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1F2937;
+}
 #yfooter .snsicon {
   min-width: 204px;
 }
+#yfooter .day {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1F2937;
+}
+#yfooter .dayS {
+  font-size: 14px;
+  font-weight: 300;
+  color: #414B5A;
+}
 #yfooter .tiem {
-  max-width: 412px;
+  height: 73px;
+  max-width: 335px;
+}
+#yfooter .tiem li {
+  line-height: 28px;
+}
+#yfooter .about li p {
+  font-size: 13px;
+  font-weight: 300;
+  color: #414B5A;
+}
+#yfooter .m_btn p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1F2937;
+}
+#yfooter .m_btn button {
+  background-color: unset;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 400;
+}
+#yfooter .fBtns {
+  width: 135px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 800;
+  color: #FFF;
+  border-radius: 20px;
+  border: none; /* 테두리 없음 */
+  background-color: #FE663F !important;
+}
+#yfooter h2 a img {
+  max-width: 160px;
+}
+#yfooter .svi {
+  font-weight: 400;
+  font-size: 13px;
 }
