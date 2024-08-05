@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap-icons/font/bootstrap-icons.css';
-import yysnavi from './header.json';
-import './css/yys.css';
+import yysnavi from '../../data/header.json';
+import '../../css/yys.css';
 import { Link, Route, Routes } from 'react-router-dom';
 
 function Header_yys() {

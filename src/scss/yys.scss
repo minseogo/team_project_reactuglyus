@@ -576,52 +576,52 @@
          }
    }
  
-   #collab_banner_yys{
+//    #collab_banner_yys{
     
-     background-image: url(/public/img/png/collab_banner.jpg);
-     max-width: 1400px;
-     margin: 0 auto;    
-     background-repeat: no-repeat;
-     border-radius: 20px;    
-     display: flex;
-     flex-direction: column;
-     padding: 0;
-     background-position: right center;
-     background-size: auto 100%;
-     font-family: 'Pretendard';
-     background-color: #BFEFFA !important;
-     margin-top: 20px;
-     margin-bottom: 150px;
+//      background-image: url(/public/img/png/collab_banner.jpg);
+//      max-width: 1400px;
+//      margin: 0 auto;    
+//      background-repeat: no-repeat;
+//      border-radius: 20px;    
+//      display: flex;
+//      flex-direction: column;
+//      padding: 0;
+//      background-position: right center;
+//      background-size: auto 100%;
+//      font-family: 'Pretendard';
+//      background-color: #BFEFFA !important;
+//      margin-top: 20px;
+//      margin-bottom: 150px;
  
-     .collab_img{
-         padding:15px 0;       
-         display: flex;
-         align-items: center;
-         justify-content: center;
+//      .collab_img{
+//          padding:15px 0;       
+//          display: flex;
+//          align-items: center;
+//          justify-content: center;
  
-         .collab_font_yysH2{          
-             letter-spacing: -0.5px;            
-             font-size: 30px;    
-         }
-         .collab_font_yysP{             
-             letter-spacing: -0.7px;            
-             font-size: 20px;
+//          .collab_font_yysH2{          
+//              letter-spacing: -0.5px;            
+//              font-size: 30px;    
+//          }
+//          .collab_font_yysP{             
+//              letter-spacing: -0.7px;            
+//              font-size: 20px;
  
-         }
-         .collab_font_yysPt{
+//          }
+//          .collab_font_yysPt{
         
-             line-height: 17px;
-             letter-spacing: -0.6px;          
-             font-size: 16px;
-             font-weight: 400;
-         }
-         a{
-             color: #3B3B3B !important;
-         }
+//              line-height: 17px;
+//              letter-spacing: -0.6px;          
+//              font-size: 16px;
+//              font-weight: 400;
+//          }
+//          a{
+//              color: #3B3B3B !important;
+//          }
      
-     }
+//      }
  
-   }
+//    }
   
 
    #yswiper{
@@ -667,7 +667,7 @@
                     
                 }
                 @media (max-width:768px){
-                    background: url(/public/img/png/main_yjy_M.jpg) no-repeat !important;
+                    background: url(/public/img/img_yys/png/main_yjy_M.jpg) no-repeat !important;
                     background-position: center;                   
                     height : 60vh;
                     background-size: cover !important;
@@ -748,51 +748,51 @@
       
    }
  
-   #event_banner_yys{
-     .banner_img{
-         background: url(/public/img/png/sale_banner.jpg) no-repeat center;
-         background-size: cover;
-         padding:30px 0;
-         margin: 0 auto;
-         max-width: 1920px;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-         a{
-             display: block;
-         }
+//    #event_banner_yys{
+//      .banner_img{
+//          background: url(/public/img/png/sale_banner.jpg) no-repeat center;
+//          background-size: cover;
+//          padding:30px 0;
+//          margin: 0 auto;
+//          max-width: 1920px;
+//          display: flex;
+//          align-items: center;
+//          justify-content: center;
+//          a{
+//              display: block;
+//          }
  
  
  
-     }
-     .event_font_yysH2{
-         display: flex;
-         position: absolute;
-         line-height: 1.5rem;
-         letter-spacing: -0.5px;
-         font-family: 'Pretendard';
-         font-size: 31px;
-         font-weight: 600;
-         padding:0 30px;
-         left: 598px;
-         margin-bottom: 0;
+//      }
+//      .event_font_yysH2{
+//          display: flex;
+//          position: absolute;
+//          line-height: 1.5rem;
+//          letter-spacing: -0.5px;
+//          font-family: 'Pretendard';
+//          font-size: 31px;
+//          font-weight: 600;
+//          padding:0 30px;
+//          left: 598px;
+//          margin-bottom: 0;
  
-     }
-     .event_font_yysP{
-         display: flex;
-         position: absolute;
-         right: 536px;
-         line-height: 1.5rem;
-         letter-spacing: -0.5px;
-         font-family: 'Pretendard';
-         font-size: 20px;
-         font-weight: 500;
-         margin-bottom: 0;
+//      }
+//      .event_font_yysP{
+//          display: flex;
+//          position: absolute;
+//          right: 536px;
+//          line-height: 1.5rem;
+//          letter-spacing: -0.5px;
+//          font-family: 'Pretendard';
+//          font-size: 20px;
+//          font-weight: 500;
+//          margin-bottom: 0;
  
-     }
+//      }
  
-   }
-   #yfooer{
+//    }
+   #yfooter{
     .snsicon{
         min-width: 204px;
     }

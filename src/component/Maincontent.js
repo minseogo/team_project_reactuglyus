@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-import Mainbanner from './yys/Mainbanner';
+import Mainbanner from './yys/Swiper_yys';
 import Collabobanner from './yys/Collabobanner';
 import Sustainability from './jjh/Sustainability';
 import Review from './gms/Review';

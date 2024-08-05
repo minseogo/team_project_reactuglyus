@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Header from './component/yys/Header';
+import Header from './component/yys/Header_yys';
 import Footer from './component/yjy/Footer';
 import Quickmenu from './component/pyj/quick/quickmenu';
  import Maincontent from './component/Maincontent';
