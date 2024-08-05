@@ -761,9 +761,6 @@
     justify-content: center;
     align-items: center;
   }
-  #store_gms .swiper-slide-active .img_lg_p {
-    padding-top: 6rem;
-  }
   #store_gms .swiper-slide-active .imglayout {
     transform: scale(0.7);
   }
@@ -783,42 +780,42 @@
   }
   #store_gms .swiper-slide.swiper-slide-active .cucumber_png {
     top: -128px;
-    left: -3rem;
+    left: -2rem;
     transform: scale(1.2);
   }
   #store_gms .swiper-slide.swiper-slide-active.cucumber .imglayout::before {
-    left: -68px;
+    left: -44px;
     top: -138px;
     width: 110%;
     height: 110%;
     background-image: url(../img/svg_gms/store/cucumber_gms.svg);
   }
   #store_gms .swiper-slide.swiper-slide-active.cucumber .info {
-    margin-left: -43px;
+    margin-left: -20px;
     margin-top: -62px;
   }
   #store_gms .swiper-slide.swiper-slide-active .carrot_png {
-    top: -26px;
-    left: 4rem;
+    top: -50px;
+    left: 3rem;
     transform: scale(1.2);
   }
   #store_gms .swiper-slide.swiper-slide-active.carrot .imglayout::before {
-    left: -28px;
+    left: -27px;
     top: -88px;
     width: 130%;
     height: 130%;
     background-image: url(../img/svg_gms/store/carrot_gms.svg);
   }
   #store_gms .swiper-slide.swiper-slide-active.carrot .info {
-    margin-left: -43px !important;
+    margin-left: -19px !important;
   }
   #store_gms .swiper-slide.swiper-slide-active .mushroom_png {
     top: 35px;
-    left: 1px;
+    left: 21px;
     transform: scale(1.2);
   }
   #store_gms .swiper-slide.swiper-slide-active.mushroom .imglayout::before {
-    left: -62px;
+    left: -41px;
     top: -30px;
     width: 110%;
     height: 150%;
@@ -826,7 +823,7 @@
   }
   #store_gms .swiper-slide.swiper-slide-active.mushroom .info {
     margin-top: 129px !important;
-    margin-left: 1px !important;
+    margin-left: 15px !important;
   }
   #store_gms .swiper-slide.swiper-slide-active .bok_choy_png {
     top: -22px;
@@ -842,12 +839,13 @@
   }
   #store_gms .swiper-slide.swiper-slide-active.bok_choy .info {
     margin-top: 74px;
+    margin-left: 9px;
   }
   #store_gms .swiper-slide.swiper-slide-active.paprika .info {
-    margin-left: -44px !important;
+    margin-left: -23px !important;
   }
   #store_gms .swiper-slide.swiper-slide-active.lemon .info {
-    margin-left: -43px !important;
+    margin-left: -21px !important;
   }
   #store_gms .swiper-pagination {
     display: none;

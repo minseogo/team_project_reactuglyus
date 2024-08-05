@@ -91,15 +91,6 @@
 #store_jjh .margin_t {
   margin-top: 80px;
 }
-#store_jjh .image-wrapper {
-  background-image: url("./img/img_jjh/SVG/carrot.svg");
-}
-#store_jjh .bg_svg {
-  background-image: url("./img/img_jjh/SVG/carrot.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 #store_jjh .img_position_jjh {
   left: -60px;
   top: -7px;
@@ -110,4 +101,31 @@
 }
 #store_jjh .carrot_z {
   z-index: 1000;
+}
+
+@media (max-width: 550px) {
+  #we_jjh ul li img {
+    display: flex !important;
+    transform: scale(0.7);
+  }
+}
+@media (max-width: 550px) {
+  #we_jjh ul li {
+    display: flex !important;
+    text-wrap: nowrap;
+  }
+}
+@media (max-width: 990px) {
+  #we_jjh .font_f30bold {
+    font-size: 3vw;
+    line-height: 1;
+    margin-top: 16px;
+  }
+}
+@media (max-width: 575px) {
+  #we_jjh .font_f30bold {
+    font-size: 19px;
+    line-height: 0.5;
+    margin-top: 15px;
+  }
 }
