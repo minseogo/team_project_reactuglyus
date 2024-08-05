@@ -11,7 +11,7 @@
   vertical-align: initial;
 }
 
-#review_gms p {
+#review_gms .container p {
   font-family: "Pretendard";
   margin-bottom: 0;
 }

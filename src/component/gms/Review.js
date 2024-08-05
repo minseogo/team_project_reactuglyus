@@ -28,8 +28,8 @@ function Review() {
             <span className="review_background"></span>
   
             <div className="text-center d-flex justify-content-center align-items-center flex-column">
-              <h2 className = "font_con_title_e mt-0 mb-5">Review</h2>
-              <p className = "font_leadcopy mt-0 mb-5">구매자 분들의 진심을 담은 실제 후기 입니다.</p>
+              <h2 className = "font_con_title_e title_blank">Review</h2>
+              <p className = "font_leadcopy title_blank">구매자 분들의 진심을 담은 실제 후기 입니다.</p>
           </div>
                 <div className="container">
                 <Swiper
@@ -195,7 +195,7 @@ function Review() {
                             </div>  
                         </div>            
                       </div>
-                      <div className="py-1">
+                      <div>
                           <img className="twitter_rieveiwbox_reviewphoto rounded " src={twitter.articleimageUrl} alt="" />
                       </div>
                       <div className="twitter_bottomicon border-top">

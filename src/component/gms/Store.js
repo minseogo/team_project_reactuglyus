@@ -8,8 +8,8 @@ const Store = () => {
   return (
     <div id="store_gms" className="overflow-hidden">
       <div className="container-fluid text-center">
-        <h2 className="font_con_title_k mb-4">개성있지만 싱싱해요</h2>
-        <div className="d-none d-lg-flex justify-content-center">
+        <h2 className="font_con_title_k title_blank">개성있지만 싱싱해요</h2>
+        <div className="d-none d-lg-flex justify-content-center title_blank">
           <p className="font_leadcopy me-5">#친환경농법을 우선한 건강한 채소</p>
           <p className="font_leadcopy me-5">#지금 먹어야 할 제철 농산물</p>
           <p className="font_leadcopy me-5">#우리의 일상을 알록달록하게</p>
@@ -17,17 +17,12 @@ const Store = () => {
         </div>
       </div>
 
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center section_blank">
         <Swiper
           slidesPerView="auto"
           spaceBetween={0}
           loop={true}
           centeredSlides={true}
-          navigation={{
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-          }}
-          pagination={true} modules={[Pagination]}
         >
             <SwiperSlide className="paprika d-flex justify-content-between align-items-center pt-5 pt-md-0">
                 <div className="col-6 img_lg_p mt-5">
@@ -136,9 +131,6 @@ const Store = () => {
                 </div>
             </SwiperSlide>
         </Swiper>
-      </div>
-      <div className="pagination_custom section_blank d-flex flex-column align-items-center justify-content-end">
-        <div className="swiper-pagination mt-auto"></div>
       </div>
     </div>
   );
