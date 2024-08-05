@@ -804,10 +804,20 @@
     @media (max-width:991px){
         margin: 30px !important; 
     }
+    .fm_menu{
+        right: 0;
+        left: 0;
+        position: absolute;
+        background-color: #FFF4DF;
+    }
     .helpUs{
         font-size: 18px;
         font-weight: 700;
         color: #1F2937;
+        @media (max-width:991px) {
+            font-size: 12px;
+            font-weight: 400;
+        }
     }
     //어글리어스 고객센터
     .snsicon{
@@ -818,12 +828,20 @@
         font-size: 14px;
         font-weight: 600;
         color: #1F2937;
+        @media (max-width:991px) {
+            font-size: 12px;
+            font-weight: 400;
+        }
     }
     //고객센터 가능 요일
     .dayS{
         font-size: 14px;
         font-weight: 300;
         color: #414B5A;
+        @media (max-width:991px) {
+            font-size: 12px;
+            font-weight: 300;
+        }
     }
     //고객센터 요일별 시간 스케줄
     .tiem{
@@ -839,6 +857,11 @@
                 font-size: 13px;
                 font-weight: 300;
                 color: #414B5A;
+                @media (max-width:991px) {
+                    font-size: 12px;
+                    font-weight: 300;
+                }
+                
             }
         }
     }
@@ -876,7 +899,18 @@
     }
   
     .svi{
-        font-weight: 400;
-        font-size: 13px;
+        p{
+            height: 30px;
+            color: #414B5A;
+            font-weight: 400;
+            font-size: 13px;
+            @media (max-width:991px) {
+                font-size: 12px;
+                font-weight: 400;
+                position: absolute;
+                bottom: 10px;
+            }
+
+        }
     }
    }

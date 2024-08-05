@@ -602,10 +602,22 @@ li {
     margin: 30px !important;
   }
 }
+#yfooter .fm_menu {
+  right: 0;
+  left: 0;
+  position: absolute;
+  background-color: #FFF4DF;
+}
 #yfooter .helpUs {
   font-size: 18px;
   font-weight: 700;
   color: #1F2937;
+}
+@media (max-width: 991px) {
+  #yfooter .helpUs {
+    font-size: 12px;
+    font-weight: 400;
+  }
 }
 #yfooter .snsicon {
   min-width: 204px;
@@ -615,10 +627,22 @@ li {
   font-weight: 600;
   color: #1F2937;
 }
+@media (max-width: 991px) {
+  #yfooter .day {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
 #yfooter .dayS {
   font-size: 14px;
   font-weight: 300;
   color: #414B5A;
+}
+@media (max-width: 991px) {
+  #yfooter .dayS {
+    font-size: 12px;
+    font-weight: 300;
+  }
 }
 #yfooter .tiem {
   height: 73px;
@@ -631,6 +655,12 @@ li {
   font-size: 13px;
   font-weight: 300;
   color: #414B5A;
+}
+@media (max-width: 991px) {
+  #yfooter .about li p {
+    font-size: 12px;
+    font-weight: 300;
+  }
 }
 #yfooter .m_btn p {
   font-size: 12px;
@@ -656,7 +686,17 @@ li {
 #yfooter h2 a img {
   max-width: 160px;
 }
-#yfooter .svi {
+#yfooter .svi p {
+  height: 30px;
+  color: #414B5A;
   font-weight: 400;
   font-size: 13px;
+}
+@media (max-width: 991px) {
+  #yfooter .svi p {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 10px;
+  }
 }
