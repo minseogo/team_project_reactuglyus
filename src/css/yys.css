@@ -78,6 +78,14 @@ li {
   }
 }
 
+.section_blankT {
+  margin-top: 85px;
+}
+
+.font_base {
+  font-family: "Pretendard";
+}
+
 .flexbetween_yys {
   display: flex !important;
   justify-content: space-between !important;

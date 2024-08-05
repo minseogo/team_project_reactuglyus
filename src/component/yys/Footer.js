@@ -3,9 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../css/yys.css';
 function Footer() {
     return (
-        <footer id='yfooter' className='mb-5'>
+        <footer id='yfooter' className='mb-5 section_blankT'>
 
-            <div className='d-flex justify-content-between align-items-center mb-2'>
+            <div className='d-flex justify-content-between align-items-center mb-2 font_base'>
                 <p className='d-none d-lg-block'>어글리어스 고객센터 070.4769.0271</p>
                 <ul className='d-none d-lg-block d-lg-flex justify-content-between me-0 ms-0 snsicon'>
                     <li>
@@ -31,7 +31,7 @@ function Footer() {
                 </ul>
             </div>
 
-            <div className='d-none d-lg-block '>
+            <div className='d-none d-lg-block font_base'>
                 <div className='d-lg-flex  align-items-center justify-content-between mb-5 tiem '>
                     <ul className=''>
                         <li>화-목요일</li>
@@ -55,13 +55,13 @@ function Footer() {
                 
             </div>
 
-            <div className='d-flex justify-content-between align-items-center'>
+            <div className='d-flex justify-content-between align-items-center font_base'>
                 <h2 className='d-none d-lg-block'>
                     <a href="#">
                        <img src="/img/img_yys/svg/ugly_us_logo.svg" alt="로고" />
                     </a>
                 </h2>
-                <ul className='text-lg-end  text-start about'>
+                <ul className='text-lg-end  text-end about'>
                     <li className='d-lg-flex'>
                         <p>
                             <strong>상호명</strong>: 주식회사 캐비지
