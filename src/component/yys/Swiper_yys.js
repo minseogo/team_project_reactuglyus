@@ -13,54 +13,52 @@ const Swiper_yys = (props) => {
 
   return (
     <>
-       <div id="yswiper" className="swiper-container">
-        <div className="main_caver">
-            <div className="swiper ov mySwiper">
-                
-                    <Swiper
-                        modules={[Pagination, Autoplay]}
-                        spaceBetween={16}
-                        slidesPerView={1}
-                        centeredSlides={true}
-                        loop={true}
-                        autoplay={{
-                        delay: 6500000,
-                        disableOnInteraction: false,
-                        }}
-
-                        breakpoints={{
-                            768: {
-                              slidesPerView: 1.35,
-                              spaceBetween: 0,
-                            }
+        <div id="yswiper" className="swiper-container section_blank">
+          <div className="main_caver">
+              <div className="swiper ov mySwiper">
+                  
+                      <Swiper
+                          modules={[Pagination, Autoplay]}
+                          spaceBetween={16}
+                          slidesPerView={1}
+                          centeredSlides={true}
+                          loop={true}
+                          autoplay={{
+                          delay: 6500000,
+                          disableOnInteraction: false,
                           }}
-                        
-                        pagination={{
-                        el: '.swiper-pagination',
-                        clickable: true,
-                        
-                    }}
-                    >
-                    {slides.map((v, i) => (
-                        <SwiperSlide key={i}>
-                            <div className="bs mx-md-3" style={{ "background":`url(${v.b_img}) center/ cover`}}>
-                                <Link to={v.href} className='w-100 h-100'>
-                                   
-                                    
-                                </Link> 
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                    </Swiper>
-                    
-                
-            </div>
-            <div className='swiper-pagination'></div>
-        </div>
-    </div>
-    <div className='h-uu'>
 
+                          breakpoints={{
+                              768: {
+                                slidesPerView: 1.35,
+                                spaceBetween: 0,
+                              }
+                            }}
+                          
+                          pagination={{
+                          el: '.swiper-pagination',
+                          clickable: true,
+                          
+                      }}
+                      >
+                      {slides.map((v, i) => (
+                          <SwiperSlide key={i}>
+                              <div className="bs mx-md-3" style={{ "background":`url(${v.b_img}) center/ cover`}}>
+                                  <Link to={v.href} className='w-100 h-100'>
+                                    
+                                      
+                                  </Link> 
+                              </div>
+                          </SwiperSlide>
+                      ))}
+                      </Swiper>
+                      
+                  
+              </div>
+              <div className='swiper-pagination'></div>
+          </div>
       </div>
+    
     </>
     
   );
