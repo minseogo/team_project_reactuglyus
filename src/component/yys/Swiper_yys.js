@@ -10,10 +10,10 @@ import { Link } from 'react-router-dom';
 
 const Swiper_yys = (props) => {
   const { slides } = swiperdb;
-  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1400);
+  const [screenSize, setScreenSize] = useState(window.innerWidth);
 
   const handleResize = () => {
-    setIsLargeScreen(window.innerWidth > 1400);
+    setScreenSize(window.innerWidth);
   };
 
   useEffect(() => {
@@ -22,6 +22,14 @@ const Swiper_yys = (props) => {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
+
+  const getBackgroundImage = (slide) => {
+    if (screenSize > 900) {
+      return slide.b_img;
+    } else {
+      return slide.m_img;
+    }
+  };
 
   return (
     <>
@@ -35,7 +43,7 @@ const Swiper_yys = (props) => {
               centeredSlides={true}
               loop={true}
               autoplay={{
-                delay: 6500,
+                delay: 650000,
                 disableOnInteraction: false,
               }}
               breakpoints={{
@@ -54,7 +62,7 @@ const Swiper_yys = (props) => {
                   <div 
                     className="bs mx-md-3" 
                     style={{ 
-                      background: `url(${isLargeScreen ? v.b_img : v.img}) center/ cover`
+                      background: `url(${getBackgroundImage(v)}) center/ cover`
                     }}
                   >
                     <Link to={v.href} className='w-100 h-100'></Link>
