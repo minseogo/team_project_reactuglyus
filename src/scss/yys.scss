@@ -799,16 +799,21 @@
  
 //    }
    #yfooter{
-    margin-left: 208px;
-    margin-right: 208px;
-    @media (max-width:991px){
-        margin: 30px !important; 
+    margin:1.5rem 15rem;
+    @media (max-width:991px) {
+        margin: 0;
     }
+    
     .fm_menu{
-        right: 0;
-        left: 0;
-        position: absolute;
-        background-color: #FFF4DF;
+        display: none;
+        @media (max-width:991px) {
+            max-width: 100vw;
+            background-color: #FFF4DF;
+            display: block;
+        }
+        
+        
+        
     }
     .helpUs{
         font-size: 18px;
@@ -846,14 +851,19 @@
     //고객센터 요일별 시간 스케줄
     .tiem{
         height: 73px;
-        max-width: 335px;
+        max-width: 315px;
         li{
-            line-height: 28px;
+            line-height: 22px;
         }
     }
     .about{
+        
+        @media (max-width:991px) {
+            margin: 10px 30px  10px 30px !important;
+        }
         li{
             p{
+                text-wrap: nowrap;
                 font-size: 13px;
                 font-weight: 300;
                 color: #414B5A;
@@ -865,11 +875,16 @@
             }
         }
     }
+    .mc{
+        margin-left: 30px;
+    }
     .m_btn{
+        margin-left: 30px;
         p{
             font-size: 12px;
             font-weight: 400;
             color: #1F2937;
+            
         }
         
 
@@ -907,8 +922,8 @@
             @media (max-width:991px) {
                 font-size: 12px;
                 font-weight: 400;
-                position: absolute;
-                bottom: 10px;
+                
+               
             }
 
         }

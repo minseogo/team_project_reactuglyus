@@ -56,7 +56,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className='d-lg-flex justify-content-between font_base'>
+      <div className='d-xxl-flex justify-content-between font_base'>
         <ul className='text-right about'>
           <li className='d-lg-flex justify-content-start'>
             <p>
@@ -90,22 +90,22 @@ function Footer() {
         </div>
         {isHelpVisible && (
             <div className='font_base fm_menu me-0 ma-0 w-100 mb-5'>
-                <div className='me-5 ms-5'>
-                    <div className='d-flex justify-content-between align-items-center mb-3'>
+                <div className='mc'>
+                    <div className='d-flex justify-content-between align-items-center '>
                         <p className='helpUs'>전화번호 070.4769.0271</p>
                     </div>
                     <div className='day_help'>
                         <div className='d-flex align-items-center justify-content-between mb-2 tiem'>
-                        <ul className='day'>
-                            <li>화-목요일</li>
-                            <li>월·금요일</li>
-                            <li>토·일·공휴일</li>
-                        </ul>
-                        <ul className='text-wrap dayS'>
-                            <li>11:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
-                            <li>09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
-                            <li>휴무</li>
-                        </ul>
+                          <ul className='day'>
+                              <li>화-목요일</li>
+                              <li>월·금요일</li>
+                              <li>토·일·공휴일</li>
+                          </ul>
+                          <ul className='text-wrap dayS'>
+                              <li>11:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
+                              <li>09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
+                              <li>휴무</li>
+                          </ul>
                         </div>
                     </div>
 
