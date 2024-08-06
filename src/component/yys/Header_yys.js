@@ -31,16 +31,7 @@ function Header_yys() {
     });
   }, []);
 
-  useEffect(() => {
-    if (isGnbVisible) {
-        
-      document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
-    } else {
-      document.body.style.backgroundColor = '';
-      
-
-    }
-  }, [isGnbVisible]);
+  
 
   return (
     <>

@@ -709,14 +709,24 @@ li {
 #yfooter h2 a img {
   max-width: 160px;
 }
-#yfooter .svi p {
+@media (max-width: 1400px) {
+  #yfooter .svi {
+    max-width: 195px;
+  }
+}
+@media (max-width: 991px) {
+  #yfooter .svi {
+    max-width: 169px;
+  }
+}
+#yfooter .svi p a {
   height: 30px;
   color: #414B5A;
   font-weight: 400;
   font-size: 13px;
 }
 @media (max-width: 991px) {
-  #yfooter .svi p {
+  #yfooter .svi p a {
     font-size: 12px;
     font-weight: 400;
   }

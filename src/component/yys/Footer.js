@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../../css/yys.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const [isHelpVisible, setHelpVisible] = useState(false);
@@ -56,7 +57,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className= 'd-xxl-flex justify-content-between font_base'>
+      <div className= 'd-xxl-flex justify-content-between  font_base'>
         <ul className='text-right about'>
           <li className='d-lg-flex justify-content-start'>
             <p>
@@ -74,13 +75,13 @@ function Footer() {
           </li>
           <li className='d-lg-flex justify-content-start'>
             <p>
-              <strong>통신판매업 신고번호 </strong>: 2021-화성동부-0302
+              <strong>통신판매업 신고번호 </strong>: 2021-화성동부-0302 
             </p>
             <p>
-              <strong>제휴 및 납품 문의</strong>: biz@uglyus.co.kr
+              <strong>  제휴 및 납품 문의</strong>: biz@uglyus.co.kr
             </p>
             <p>
-              <strong>농산물 납품 및 긴급구출 제보</strong>: farm@uglyus.co.kr
+              <strong> 농산물 납품 및 긴급구출 제보</strong>: farm@uglyus.co.kr
             </p>
           </li>
         </ul>
@@ -110,8 +111,10 @@ function Footer() {
           </div>
         </div>
         <ul>
-          <li className='svi text-center '>
-            <p>서비스 이용약관 개인정보 처리방침</p>
+          <li className='svi ms-auto me-auto justify-content-between align-items-start d-flex'>
+            <p className='me-lg-1'><Link href="">서비스이용약관 </Link></p>
+            <p className='me-lg-1'><Link href="">개인정보 </Link></p>
+            <p><Link href="">처리방침</Link></p>
           </li>
         </ul>
       </div>

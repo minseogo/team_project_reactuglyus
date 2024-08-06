@@ -934,17 +934,29 @@
     }
   
     .svi{
+        @media (max-width:1400px){
+            max-width: 195px;
+
+        }
+        @media (max-width:991px){
+            max-width: 169px;
+
+        }
         p{
-            height: 30px;
-            color: #414B5A;
-            font-weight: 400;
-            font-size: 13px;
-            @media (max-width:991px) {
-                font-size: 12px;
+            a{
+                height: 30px;
+                color: #414B5A;
                 font-weight: 400;
+                font-size: 13px;
+                @media (max-width:991px) {
+                    font-size: 12px;
+                    font-weight: 400;
+                    
                 
-               
+                }
             }
+            
+            
 
         }
     }
