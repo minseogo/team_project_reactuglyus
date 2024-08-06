@@ -1,35 +1,35 @@
 {
     "slides": [
-      { "b_img":"/img/img_yys/png/main_gms.jpg",
-        "img":"/img/img_yys/png/main_yjy_M.jpg",
+      { "b_img":"/img/img_yys/png/bboxB.png",
+        "img":"/img/img_yys/png/bboxB_M.png",
         "href":"https://www.naver.com/",
         "text":"우리만의 가치로 세상을 더 가치있게"
         
      }
      ,
-     { "b_img":"/img/img_yys/png/main_img_yys.jpg",
-     "img":"/img/img_yys/png/main_yjy_M.jpg",
+     { "b_img":"/img/img_yys/png/bmeilkB.png",
+     "img":"/img/img_yys/png/bmeilkB_M.png",
         "href":"https://www.naver.com/",
         "text":"우리만의 가치로 세상을 더 가치있게"
         
      }
      ,
-     { "b_img":"/img/img_yys/png/main_jjh.jpg",
-     "img":"/img/img_yys/png/main_yjy_M.jpg",
+     { "b_img":"/img/img_yys/png/tjuceB.png",
+     "img":"/img/img_yys/png/tjuceB_M.png",
         "href":"https://www.naver.com/",
         "text":"우리만의 가치로 세상을 더 가치있게"
         
      }
      ,
-     { "b_img":"/img/img_yys/png/main_pyj.jpg",
-        "img":"/img/img_yys/png/main_yjy_M.jpg",
+     { "b_img":"/img/img_yys/png/appB.png",
+        "img":"/img/img_yys/png/appB_M.png",
         "href":"https://www.naver.com/",
         "text":"우리만의 가치로 세상을 더 가치있게"
         
      }
      ,
-     { "b_img":"/img/img_yys/png/main_yjy.jpg",
-        "img":"/img/img_yys/png/main_yjy_M.jpg",
+     { "b_img":"/img/img_yys/png/spicyB.png",
+        "img":"/img/img_yys/png/spicyB_M.png",
         "href":"https://www.naver.com/",
         "text":"우리만의 가치로 세상을 더 가치있게"
        
