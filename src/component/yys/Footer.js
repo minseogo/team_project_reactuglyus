@@ -56,7 +56,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className='d-xxl-flex justify-content-between font_base'>
+      <div className= 'd-xxl-flex justify-content-between font_base'>
         <ul className='text-right about'>
           <li className='d-lg-flex justify-content-start'>
             <p>
@@ -88,39 +88,33 @@ function Footer() {
           <p>고객센터</p>
           <button onClick={toggleHelp} className={`bi ${isHelpVisible ? 'bi-chevron-up' : 'bi-chevron-down'}`}></button>
         </div>
-        {isHelpVisible && (
-            <div className='font_base fm_menu me-0 ma-0 w-100 mb-5'>
-                <div className='mc'>
-                    <div className='d-flex justify-content-between align-items-center '>
-                        <p className='helpUs'>전화번호 070.4769.0271</p>
-                    </div>
-                    <div className='day_help'>
-                        <div className='d-flex align-items-center justify-content-between mb-2 tiem'>
-                          <ul className='day'>
-                              <li>화-목요일</li>
-                              <li>월·금요일</li>
-                              <li>토·일·공휴일</li>
-                          </ul>
-                          <ul className='text-wrap dayS'>
-                              <li>11:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
-                              <li>09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
-                              <li>휴무</li>
-                          </ul>
-                        </div>
-                    </div>
-
-                </div>
-                
+        <div className={`font_base fm_menu d-lg-none me-0 ma-0 w-100 mb-2 ${ isHelpVisible ? 'tr' : '' }`}>
+          <div className='mc'>
+            <div className='mb-1'>
+              <p className='helpUs d-lg-none'>전화번호 070.4769.0271</p>
             </div>
-        )}
+            <div className='day_help'>
+              <div className='d-flex align-items-center justify-content-between mb-2 tiem'>
+                <ul className='day'>
+                  <li>화-목요일</li>
+                  <li>월·금요일</li>
+                  <li>토·일·공휴일</li>
+                </ul>
+                <ul className='text-wrap dayS'>
+                  <li>11:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
+                  <li>09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)</li>
+                  <li>휴무</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
         <ul>
           <li className='svi text-center '>
             <p>서비스 이용약관 개인정보 처리방침</p>
           </li>
         </ul>
       </div>
-
-      
     </footer>
   );
 }
