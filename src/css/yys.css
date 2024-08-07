@@ -733,7 +733,7 @@ li {
 
 .beforedim:before {
   content: "";
-  z-index: 10;
+  z-index: 100;
   display: block;
   position: fixed;
   left: 0;
