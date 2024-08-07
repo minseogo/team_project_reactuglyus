@@ -66,7 +66,7 @@ const Swiper_yys = (props) => {
                       background: `url(${getBackgroundImage(v)}) center/ cover`
                     }}
                   >
-                    <Link to={v.href} className='w-100 h-100'></Link>
+                    <Link to={v.href} className='w-100 h-100 d-block'></Link>
                   </div>
                 </SwiperSlide>
               ))}

@@ -665,11 +665,19 @@
             }
 
             .bs{
+                height: 478px !important;
+                transform:unset;
                 @media (min-width:1440px) {
                 transition: transform 0.5s;        
                 border-radius: 20px;               
                 height: 400px;
                 margin: 133px 70px !important;
+                }
+                @media (max-width:768px) {
+                    transform: unset;
+                    height: 96vw !important;
+                    border-radius: 20px;
+                    
                 }
                 
             }
