@@ -240,11 +240,6 @@ li {
     width: 0% !important;
     border-radius: unset;
   }
-  #hd_yys .gnb_li.action::after {
-    content: "+";
-    font-size: 1.5rem;
-    color: #FE663F;
-  }
   #hd_yys .gnb_li.action .gnb_ul {
     width: 100%;
     background-color: #FF6943;
@@ -729,4 +724,4 @@ li {
   top: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-}/*# sourceMappingURL=yys.css.map */
+}
