@@ -233,6 +233,8 @@
                      position: relative;
                      transition: 0.5s;
                      padding:0 80px;
+                     display: flex;
+                     flex-direction: column;
                      @media (max-width:1200px){
                         padding: 0 29px;
                      }
@@ -263,15 +265,13 @@
                                     
 
                                 }
+                                
                             }
                             &::after{
                                 content: "+";
-                                // position: absolute;
                                 font-size: 1.5rem;
                                 color: #FE663F;
-                                right: 20px;
-                                transform: translateY(-50%);
-                                top: 16%;
+                            
                                 
                             }
                             .gnb_ul{
@@ -297,8 +297,7 @@
                             font-size: 1.5rem;
                             color: #000000;
                             right: 20px;
-                            transform: translateY(-50%);
-                            top: 50%;
+                            top: 26px;
                             
                         }
                      }

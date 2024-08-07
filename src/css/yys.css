@@ -212,6 +212,8 @@ li {
   position: relative;
   transition: 0.5s;
   padding: 0 80px;
+  display: flex;
+  flex-direction: column;
 }
 @media (max-width: 1200px) {
   #hd_yys .gnb_li {
@@ -242,9 +244,6 @@ li {
     content: "+";
     font-size: 1.5rem;
     color: #FE663F;
-    right: 20px;
-    transform: translateY(-50%);
-    top: 16%;
   }
   #hd_yys .gnb_li.action .gnb_ul {
     width: 100%;
@@ -265,8 +264,7 @@ li {
     font-size: 1.5rem;
     color: #000000;
     right: 20px;
-    transform: translateY(-50%);
-    top: 50%;
+    top: 26px;
   }
 }
 #hd_yys .gnb_li:hover .gnb_a span {
@@ -731,4 +729,4 @@ li {
   top: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-}
+}/*# sourceMappingURL=yys.css.map */
