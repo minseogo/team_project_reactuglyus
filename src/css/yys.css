@@ -111,16 +111,6 @@ li {
   padding: 0 48px;
   z-index: 1000;
 }
-@media (max-width: 991px) {
-  #hd_yys:hover:before {
-    content: "";
-    background-color: #797979;
-    opacity: 50%;
-    height: 100% !important;
-    border-bottom: unset;
-    transition: unset;
-  }
-}
 #hd_yys h1 {
   height: 100%;
 }
@@ -731,7 +721,7 @@ li {
   }
 }
 
-.beforedim:before {
+.beforedim #hd_yys .onj:before {
   content: "";
   z-index: 100;
   display: block;
@@ -740,12 +730,5 @@ li {
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.beforedim:before .onj {
-  background-color: #000000 !important;
-  opacity: 20%;
-}
-.beforedim:before #hd_yys h1 img {
-  opacity: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
