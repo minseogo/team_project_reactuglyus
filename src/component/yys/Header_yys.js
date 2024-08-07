@@ -31,15 +31,23 @@ function Header_yys() {
     });
   }, []);
 
+  useEffect(()=>{
+    if(isGnbVisible){ 
+      document.body.classList.add("beforedim");
+    }else{
+      document.body.classList.remove("beforedim");
+    }
+  }, [isGnbVisible])
+
   
 
   return (
     <>
-      <header id="hd_yys" className="fixed-top d-flex justify-content-between align-items-center">
-        <div className="fixed-top onj d-flex justify-content-between align-items-center h-100px bg-white">
+      <header id="hd_yys" className={`fixed-top d-flex justify-content-between align-items-center  `}>
+        <div className={`fixed-top onj d-flex justify-content-between align-items-center h-100px ${isGnbVisible ? 'bg-dark': 'bg-white'} `}>
           <h1 className="mx-60">
             <Link to={yysnavi.logo.href} className="w-100 h-100">
-              <img src={yysnavi.logo.img} alt="Logo" />
+              <img src={yysnavi.logo.img} alt="Logo" className= { ` ${isGnbVisible ? 'opacity-25' : '' }`} />
             </Link>
           </h1>
 

@@ -725,6 +725,9 @@
   
   
       }
+      .swiper-pagination{
+        z-index: 0;
+      }
       .swiper-pagination-bullet-active{
           background-color: #797979;
           opacity: 1 !important;
@@ -896,3 +899,23 @@
         }
     }
    }
+
+   .beforedim:before{
+    content: "";
+    z-index: 10;
+    display: block;
+    position: fixed;
+    left:0; right:0; top:0; bottom:0;
+    background-color: rgba(0,0,0,.8);
+        .onj{
+            background-color: #000000 !important;
+            opacity: 20%;
+        }
+        #hd_yys h1 img{
+            opacity: 20%;
+        }
+
+    
+   
+   }
+   
