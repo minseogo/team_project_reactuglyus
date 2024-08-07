@@ -24,7 +24,7 @@ const Swiper_yys = (props) => {
   }, []);
 
   const getBackgroundImage = (slide) => {
-    if (screenSize > 900) {
+    if (screenSize > 768) {
       return slide.b_img;
     } else {
       return slide.m_img;
@@ -47,9 +47,10 @@ const Swiper_yys = (props) => {
                 disableOnInteraction: false,
               }}
               breakpoints={{
-                768: {
+
+                1440: {
                   slidesPerView: 1.35,
-                  spaceBetween: 0,
+                  spaceBetween: 16,
                 }
               }}
               pagination={{
@@ -60,7 +61,7 @@ const Swiper_yys = (props) => {
               {slides.map((v, i) => (
                 <SwiperSlide key={i}>
                   <div 
-                    className="bs mx-md-3" 
+                    className="bs sm-md-3" 
                     style={{ 
                       background: `url(${getBackgroundImage(v)}) center/ cover`
                     }}
@@ -71,8 +72,8 @@ const Swiper_yys = (props) => {
               ))}
             </Swiper>
           </div>
-          <div className='swiper-pagination'></div>
         </div>
+        <div className='swiper-pagination'></div>
       </div>
     </>
   );
