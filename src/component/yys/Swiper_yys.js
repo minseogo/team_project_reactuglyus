@@ -42,14 +42,18 @@ const Swiper_yys = (props) => {
               slidesPerView={1}
               centeredSlides={true}
               loop={true}
+              
               autoplay={{
                 delay: 650000,
                 disableOnInteraction: false,
               }}
               breakpoints={{
-
                 1440: {
                   slidesPerView: 1.35,
+                  spaceBetween: 16,
+                },
+                1990: {
+                  slidesPerView: 4.5,
                   spaceBetween: 16,
                 }
               }}

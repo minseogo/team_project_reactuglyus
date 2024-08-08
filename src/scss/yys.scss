@@ -278,7 +278,7 @@
                                 width: 100%;
                                 background-color: #FF6943;
                                 max-height: 150px;
-                                transition: max-height 1.2s;
+                                // transition: max-height 1.2s;
                                 transform: unset;
                                 a{
                                     span{
@@ -513,22 +513,7 @@
      // #mainbanner_yys 에서 .mainbanner_pyj로 새로 class 만듬
      // padding: 100px 0 200px 0; 에서 padding: 100px 0 40px 0;으로 수정함 - pyj(5/23)
  }
- .mainbanner_pyj{
-     padding: 100px 0 80px 0;
- }
- .main_image_center_yys{
-     max-width: 1400px;
-     border-radius: 20px;
-   }
-   .main_image_side_yys{
-     max-width: 1000px;
-     border-radius: 20px;
-   }
-   .dja_yys{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-   }
+ 
    #pagination{
      top:740px;
      position: relative;
@@ -570,54 +555,7 @@
          }
    }
  
-//    #collab_banner_yys{
-    
-//      background-image: url(/public/img/png/collab_banner.jpg);
-//      max-width: 1400px;
-//      margin: 0 auto;    
-//      background-repeat: no-repeat;
-//      border-radius: 20px;    
-//      display: flex;
-//      flex-direction: column;
-//      padding: 0;
-//      background-position: right center;
-//      background-size: auto 100%;
-//      font-family: 'Pretendard';
-//      background-color: #BFEFFA !important;
-//      margin-top: 20px;
-//      margin-bottom: 150px;
- 
-//      .collab_img{
-//          padding:15px 0;       
-//          display: flex;
-//          align-items: center;
-//          justify-content: center;
- 
-//          .collab_font_yysH2{          
-//              letter-spacing: -0.5px;            
-//              font-size: 30px;    
-//          }
-//          .collab_font_yysP{             
-//              letter-spacing: -0.7px;            
-//              font-size: 20px;
- 
-//          }
-//          .collab_font_yysPt{
-        
-//              line-height: 17px;
-//              letter-spacing: -0.6px;          
-//              font-size: 16px;
-//              font-weight: 400;
-//          }
-//          a{
-//              color: #3B3B3B !important;
-//          }
-     
-//      }
- 
-//    }
   
-
    #yswiper{
         position: relative;
         overflow: hidden !important;
@@ -657,7 +595,8 @@
                 transition: transform 0.5s;        
                 border-radius: 20px;               
                 height: 400px;
-                margin: 133px 70px !important;
+                margin: 98px 70px !important;
+                max-width: 1400px;
                 }
                 @media (max-width:768px) {
                     transform: unset;
@@ -675,6 +614,7 @@
                     transform: scale(1.12);
                     transition: 0.5s;
                     height: 600px !important;
+                    max-width: 1400px;
                     
                 }
                 @media (max-width:768px) {
@@ -731,7 +671,18 @@
       }
       
    }
- 
+#eventbanner{
+    overflow: hidden;
+    a{
+        img{
+            max-width: 73vw;
+            @media (max-width:1400px) {
+                max-width: 100vw;
+            }
+        }
+    }
+}
+   
    #yfooter{
     margin:1.5rem 15rem;
     @media (max-width:991px) {
