@@ -307,21 +307,21 @@
     font-size: 12px;
     letter-spacing: 0.1px;
     .insta_reviewbox_article_f{
-      margin-top: -22px;
-      margin-left: 27px;
+      margin-top: -22px !important;
+      margin-left: 27px !important;
       font-weight: 300;
     }
     .insta_reviewbox_article_s{
       font-size: 10px;
       font-weight: 300;
-      margin-top: -12px;
+      margin-top: -12px !important;
     }
     .insta_reviewbox_article_t{
       font-size: 10px;
       font-weight: 300;
       color: #9ACDFB;
-      margin-top: -13px;
-      margin-right: 145px;
+      margin-top: -13px !important;
+      margin-right: 145px !important;
     }
   }
 }
@@ -338,10 +338,10 @@
       font-size: 17px;
       font-weight: 600;
       letter-spacing: 0.7px;
-      margin-right: 82px;
+      margin-right: 82px !important;
     }
     .youtube_reviewbox_article_f{
-      margin-right: 116px;
+      margin-right: 116px !important;
       font-size: 12px;
       font-weight: 400;
       letter-spacing: 0.2px;
@@ -396,7 +396,7 @@
       font-size: 22px;
     }
     .naverblog_top_title{
-      margin-left: -13px;
+      margin-left: -13px !important;
     }
   } 
   }
@@ -420,13 +420,13 @@
     }
     .naverblog_review_profile_text_f{
       font-size: 10px;
-      margin-top: -1rem;
+      margin-top: -1rem !important;
     }
     .naverblog_review_profile_text_s{
       font-size: 9px;
       color: #CDC7C7;
       letter-spacing: 0.2px;
-      margin-top: -15px;
+      margin-top: -15px !important;
     }
   }
   .naverblog_addfriends{
