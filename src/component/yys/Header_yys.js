@@ -47,7 +47,7 @@ function Header_yys() {
         <div className= "fixed-top onj d-flex justify-content-between align-items-center h-100px bg-white">
           <h1 className="mx-60">
             <Link to={yysnavi.logo.href} className="w-100 h-100">
-              <img src={yysnavi.logo.img} alt="Logo" />
+              <img src={yysnavi.logo.img} alt="로고" />
             </Link>
           </h1>
 

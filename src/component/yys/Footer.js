@@ -17,16 +17,16 @@ function Footer() {
         <p className='helpUs'>어글리어스 고객센터 070.4769.0271</p>
         <ul className='d-none d-lg-block d-lg-flex justify-content-between me-0 ms-0 snsicon'>
           <li>
-            <a href="#"><img src="/img/img_yys/svg/sns_Instar.svg" alt="" /></a>
+            <a href="#"><img src="/img/img_yys/svg/sns_Instar.svg" alt="인스타 바로가기" /></a>
           </li>
           <li>
-            <a href="#"><img src="/img/img_yys/svg/sns_kakao.svg" alt="" /></a>
+            <a href="#"><img src="/img/img_yys/svg/sns_kakao.svg" alt="카카오 스토리 바로가기" /></a>
           </li>
           <li>
-            <a href="#"><img src="/img/img_yys/svg/sns_X.svg" alt="" /></a>
+            <a href="#"><img src="/img/img_yys/svg/sns_X.svg" alt="x 바로가기" /></a>
           </li>
           <li>
-            <a href="#"><img src="/img/img_yys/svg/sns_face.svg" alt="" /></a>
+            <a href="#"><img src="/img/img_yys/svg/sns_face.svg" alt="페이스북 바로가기" /></a>
           </li>
         </ul>
       </div>

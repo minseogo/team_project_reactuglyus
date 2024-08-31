@@ -2,7 +2,7 @@
 {
   "logo": {
     "Text": "uglyus",
-    "href": "https://yunjuyean.github.io/uglyus/",
+    "href": "https://team-project-reactuglyus.vercel.app/",
     "img": "/img/img_yys/svg/ugly_us_logo.svg",
     "cls": ["me-3"]
   },
@@ -30,7 +30,7 @@
       "gnb_ul_li": [
         {
           "Text": "후기",
-          "href": "mission"
+          "href": "#review_gms"
         },
         {
           "Text": "혜택",
@@ -64,7 +64,7 @@
       "gnb_ul_li": [
         {
           "Text": "오늘의레시피",
-          "href": "mission"
+          "href": "#recipe_yjy"
         },
         {
           "Text": "채소이야기",
