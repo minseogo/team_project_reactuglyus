@@ -112,7 +112,7 @@ li {
   z-index: 1000;
 }
 #hd_yys h1 {
-  z-index: 10000;
+  z-index: 1000;
   height: 100%;
 }
 #hd_yys h1 a {
@@ -162,7 +162,6 @@ li {
     right: 0;
     left: 50%;
     top: 0px;
-    border: 1px solid black;
     border-radius: 20px 0 0 20px;
     background-color: rgb(255, 255, 255);
   }
